@@ -4,13 +4,31 @@ html, body{
 }
 
 #map{
+    display: inline-block;
     height: 80vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
+    width: 75%;
+    background-color: rgb(255, 250, 250);
+    
 }
 
+#info{
+    display: inline-block;
+    height: 80vh;
+    width: 25%;
+    border:1px solid grey;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    
+}
+
+h2{
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+
 footer{
-    height: 20vh;
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
