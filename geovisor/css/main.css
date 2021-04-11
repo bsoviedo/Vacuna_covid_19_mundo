@@ -11,19 +11,35 @@ html, body{
     
 }
 
-#info{
-    display: inline-block;
-    height: 80vh;
-    width: 25%;
+#feature_infos {
+    width:23%;
+    height: 35%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 75px;
+    right:5px;
+    padding:5px;
     border:1px solid grey;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    
+    display:none;
 }
 
-h2{
+
+#info{
+    display: inline-block;
+    font-weight:bold;
+}
+
+#pre{
+    right:10px;
+    float: right; 
+    width:25%;
+    display: inline-block;
     text-align: center;
-    padding-top: 80px;
+} 
+
+h2{
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 

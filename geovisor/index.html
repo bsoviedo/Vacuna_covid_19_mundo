@@ -20,13 +20,17 @@ crossorigin=""></script>
 <script type="text/javascript" src="../Geojson/country.js"></script>
 
 
-
-
+<!-- Insertar JQEUERY si lo voy a usar-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
 
     <body>
         <div id='map'>   </div>
-        <div id='info'> <h2> Selecciona algún país para ver la cantidad de vacunados </h2> </div>
+        <div id='pre'> <h2> Selecciona algún país para ver la cantidad de vacunados </h2> 
+        </div>
+        <div id="feature_infos"> 
+        <span id='info'>  </span>
+    </div>
         <script  src='js/map.js'> </script>
         <footer> 
 
